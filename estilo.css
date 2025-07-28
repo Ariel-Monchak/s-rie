@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; 
+    text-align: center;
+    opacity: 1;
+}
+
+.pagina-principal{
+  background-image:url("img/letra.JPEG");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.imgtemporadas{
+    background-image:url("img/pais.JPEG");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+header {
+    position: fixed; /* Fixa o header no topo */
+    top: 0; /* Mantém no topo da página */
+    width: 100%; /* Faz o header ocupar toda a largura */
+    background-color: black;
+    padding: 1px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+
+ /* Oganização do menu */
+.menu ul {
+    padding: 0;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    position: relative;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    background-color: black;
+}
+
+.menu ul li:hover {
+    background-color: #006400;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* Estilos do Submenu */
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    min-width: 150px;
+    height: auto;
+}
+
+.menu ul li:hover > ul {
+    display: block;
+}
+
+.menu ul ul li {
+    background-color: #008000;
+}
+
+.menu ul ul li:hover {
+    background-color: #2E8B57;
+}
+
+/*Ajuste do texto da sinopse  */
+.sinopse-texto {
+  padding: 20px;
+  }
+
+.sinopse-texto p {
+   font-size: 18px;
+   line-height: 1.6;
+        }
+
+/* Organisação da tabela da sinopse  */
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+.per{
+     background-color: #3e6b43; /* Verde médio */
+     color: #ffffff;
+     padding: 10px;
+     text-align: left;
+        }
+
+.td {
+     padding: 10px;
+     border-bottom: 1px solid #ddd;
+        }
+
+        
+
+        /* Organisação do link temporadas */
+
+.layout-geral {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+
+.tabli {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.t5 {
+    background-color: #3e6b43;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.orige{
+  text-align: center;
+}
+
+.header {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+.episode {
+      background-color: #f9f9f9;
+    }
+   
+
+td img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/*elenco*/
+
+ .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+            }
+.card {
+    background: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+        }
+.card img {
+    width: 100%;
+
+    border-radius: 8px;
+        }
+.name {
+    font-weight: bold;
+    margin-top: 10px;
+        }
+.character {
+        color: #555;
+        }
+  
+/*imgem sinop...*/
+.sino{
+    text-align: center;
+    background-size: cover;
+    border: 0;
+    align-items: center;
+    margin: 0px auto;
+  border-collapse: ;
+  background-color: ;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
+  }
+
+
+       
